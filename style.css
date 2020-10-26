@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.encabezado {
+    xbackground-color: #fff;
+    width: 100%;
+    height: 75px;
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.item-menu li{
+    color: #000000DE;
+    margin: auto 15px;
+    list-style: none;
+    display: inline-block;
+}
+
+.item-img img{
+    width: 20px;
+    height: 20px;
+}
+
+.btn-iniciarSesion {
+    color: white;
+    background-color: #4683ea;
+    border-radius: 2px;
+    padding: 5px;
+    border: 1px solid #4683ea;
+    font-size: 1.9rem;
+}
+
+.container {
+    xbackground-color: coral;
+    width: 100%;
+    height: 432px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-options {
+    display: block;
+}
+
+.container-img {
+    width: 100%;
+}
+
+.search {
+    font-size: 1.3rem;
+    xmargin: 15px 40px;
+    padding: 15px;
+    border-radius: 23px;
+    border: 1px solid gray;
+    width: 100%;
+    text-decoration: underline;
+}
+
+.btn-google {
+    font-size: 1.5rem;
+    padding: 5px;
+    background-color: #f2f2f2;
+    color:#5F6368;
+    margin: 15px 2px;
+    min-width: 54px;
+    border: 1px solid  #f2f2f2;
+    cursor: pointer;
+}
+
+.btn-style {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-options {
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: arial;
+    color: #222222;
+}
+
+.container-options p span {
+    color: #1A0DAB;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+}
+
+footer li {
+    color: #5F6368;
+    font-size: 1.4rem;
+    padding: 0px 0px 0px 27px;
+    display: inline-block;
+}
+
+.footer-left {
+    position: relative;
+    right: 225px;
+}
+
+.footer-right{
+    position: relative;
+    left: 150px;
+    
+}
